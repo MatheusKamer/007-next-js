@@ -1,11 +1,13 @@
 'use client'
 
 export default function Home() {
-    const { appName } = window.navigator;
+    const handleAlert = () => {
+      alert('Clicou');
+    }
 
     return (
     <div>
-      <button onClick={() => alert(appName)}>
+      <button onClick={() => handleAlert()}>
         Clicou
       </button>
     </div>
