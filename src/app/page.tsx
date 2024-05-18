@@ -1,15 +1,11 @@
 'use client'
 
-export default function Home() {
-    const handleAlert = () => {
-      alert('Clicou');
-    }
+import Link from "next/link";
 
+export default function Home() {
     return (
     <div>
-      <button onClick={() => handleAlert()}>
-        Clicou
-      </button>
+      <Link href="/auth/signin">Ir para signin</Link>
     </div>
   );
 }
