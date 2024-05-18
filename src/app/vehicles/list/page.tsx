@@ -1,9 +1,10 @@
 export default function VehiclesList() {
   const vehicles = [
-    { id: 1, make: 'Toyota', model: 'Camry' },
-    { id: 2, make: 'Honda', model: 'Civic' },
-    { id: 3, make: 'Ford', model: 'Mustang' },
-  ];
+    { id: 1, make: 'Toyota', model: 'Camry', year: '2021' },
+    { id: 2, make: 'Honda', model: 'Civic', year: '2024'},
+    { id: 3, make: 'Ford', model: 'Mustang', year: '2023'},
+
+  ]
 
   return (
     <div>
